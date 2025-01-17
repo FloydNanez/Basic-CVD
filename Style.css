@@ -434,6 +434,7 @@ border-radius: 2rem;
 /* Contacts  */
 .free{
   background: #ffa700;
+  padding: 6rem;
 }
 .free .free__wrapper{
   text-align: center;
@@ -444,43 +445,6 @@ border-radius: 2rem;
 }
 .free .free__wrapper p{
   margin-bottom: 2rem;
-}
-.free .free__wrapper a{
-  padding: 1rem;
-  border-radius: 10rem;
-  background-color: #2b2b2b;
-  color: #ffffff;
-}
-.free .free__wrapper a:hover{
-scale: 1.1;
-}
-
-@media screen and (max-width:500px){
-  .free{
-    background: #ffa700;
-  }
-  .free .free__wrapper{
-    text-align: center;
-  }
-  .free .free__wrapper h3{
-    font-size: 2rem;
-    font-weight: 700;
-    font-size: 2rem;
-  }
-  .free .free__wrapper p{
-    font: 100;
-    font-weight: 100;
-    margin-bottom: 2rem;
-  }
-.free .free__wrapper a{
-    padding: 1rem;
-    border-radius: 10rem;
-    background-color: #2b2b2b;
-    color: #ffffff;
-  }
-}
-.free .free__wrapper a:hover{
-  scale: 1.1;
 }
 
 /* Footer */
@@ -516,6 +480,9 @@ scale: 1.1;
     display: flex;
     flex-direction: column;
   }
+  .footer .footer__wrapper ul {
+    padding-top: 1.5rem;
+  }
 }
 
 /* REPEATABLE PATTERNS */
@@ -531,4 +498,8 @@ color: #ffffff;
 
 .btn.bg--primary{
   background: #ffa700;
+}
+
+.btn.bg--dark{
+  background: #2b2b2b;
 }
