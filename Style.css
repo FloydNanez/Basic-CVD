@@ -238,7 +238,6 @@ gap: 5rem;
   margin-top: 5rem;
   margin-bottom: 3rem;
   text-align: justify;
-  font-weight: 550;
 }
 @media screen and (max-width: 500px){
   .banner{
@@ -317,7 +316,6 @@ color: #ffffff;
   margin-top: 5rem;
   margin-bottom: 3rem;
   text-align: justify;
-  font-weight: 550;
 }
 /* About Me Mobileview */
 @media screen and (max-width:500px){
