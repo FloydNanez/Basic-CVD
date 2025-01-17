@@ -268,21 +268,6 @@ gap: 5rem;
 }
 }
 
-/* REPEATABLE PATTERNS */
-.btn{
-  display: inline-block;
-  padding:1.5rem 2rem;
-border-radius: 5rem;
-color: #ffffff;
-}
-.btn:hover{
-  scale: 1.1;
-}
-
-.btn.bg--primary{
-  background: #ffa700;
-}
-
 /* Section3 */
 .aboutme{
   padding-top: 10rem;
@@ -343,4 +328,19 @@ color: #ffffff;
     width:20rem;
     margin: 0 auto;
   }
+}
+
+/* REPEATABLE PATTERNS */
+.btn{
+  display: inline-block;
+  padding:1.5rem 2rem;
+border-radius: 5rem;
+color: #ffffff;
+}
+.btn:hover{
+  scale: 1.1;
+}
+
+.btn.bg--primary{
+  background: #ffa700;
 }
