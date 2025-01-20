@@ -626,7 +626,11 @@ border-radius: 2rem;
 }
 
 /* Services */
-
+.section .web__development{
+  background-color: #ffffff;
+  padding-bottom: 5rem;
+}
+.section .web__development
 
 /* REPEATABLE PATTERNS */
 .btn{
