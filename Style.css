@@ -451,9 +451,7 @@ border-radius: 2rem;
 }
 
 .about .about__text p{
-
-   margin-top: 1rem;
-
+  margin-top: 1rem;
   text-align: justify;
   font-family: 'inter', sans-serif;
 }
@@ -469,11 +467,42 @@ border-radius: 2rem;
     font-size: 2.5rem;
 }
 
+/* About Me Mobile */
+@media screen and (max-width: 500px){
+  .about{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+.about .about__wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+.about .about__text{
+  order: 2;
+
+}
+.about .about__text h1{
+  font-size: 6rem;
+  text-align: center;
+}
+.about .about__text .p1{
+  text-align: center;
+}
+
+.about img {
+  width: 20rem;
+  margin: 0 auto;
+}
+.about .about__text .about__links{
+  justify-items: center;}
+}
 
 /* recent*/
 .recent{
   background: #2b2b2b;
-  padding: 5rem 0;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 .recent .recent__wrapper{
   display: grid;
@@ -505,7 +534,6 @@ border-radius: 2rem;
 }
 .recent .recent__text p{
   margin-top: 2rem;
-  margin: 4rem;
 }
 .recent .recent a{
   color: #ffa700;
@@ -564,11 +592,18 @@ border-radius: 2rem;
   padding: 2.5rem;
   gap: 5rem;
 }
+.about .container a {
+  display: flex;
+  justify-content: center;
+  color: #ffa700;
+  font-size: 3rem;
+}
 .footer .footer__wrapper ul li a {
   color: dimgray;
   font-size: 2.5rem;
 }
 .footer .footer__wrapper ul {
+  color: #2b2b2b;
   display: flex;
   gap: 1.25rem;
 }
@@ -581,6 +616,8 @@ border-radius: 2rem;
   .footer .footer__wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .footer .footer__wrapper ul {
     padding-top: 1.5rem;
