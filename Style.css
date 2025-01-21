@@ -584,7 +584,6 @@ border-radius: 2rem;
   color: white;
 }
 
-/* DEVELOPMENT */
 .services .development__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -620,33 +619,35 @@ border-radius: 2rem;
 display: none;
 }
 
-@media screen and (max-width:500px) {
+/* services mobile*/
+@media screen and (max-width: 500px) {
   .services__content {
-    padding-left: 2rem;
-    padding-right: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
   }
   .services__content .development__wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+      display: grid;
+      grid-template-columns: 1fr;
   }
   .services__content .development__text {
-    order: 2;
+      order: 2;
   }
   .services__content h2 {
-    font-size: 4rem;
-    text-align: center;
+      font-size: 4rem;
+      text-align: center;
   }
   .services__content p, .services__content {
-    text-align: center;
+      text-align: center;
   }
   .services__content h3 {
-    font-size: 2.5rem;
+      font-size: 2.5rem;
   }
   .services__content img {
-    width: 20rem;
-    margin: 0 auto;
+      width: 20rem;
+      margin: 0 auto;
   }
 }
+
 
 /* Contacts  */
 .free{
