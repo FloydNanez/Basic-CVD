@@ -561,6 +561,92 @@ border-radius: 2rem;
   }
 }
 
+/* SERVICES */
+.services {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background: white;
+}
+.services .fa-solid {
+  display: grid;
+  justify-items: center;
+  color: #ffa700;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+.services__content:nth-child(even) {
+  background: #2b2b2b;
+}
+.services__content:nth-child(even) .development__text {
+  order: 2;
+}
+.services__content:nth-child(even) p, .services__content:nth-child(even) h6 {
+  color: white;
+}
+
+/* DEVELOPMENT */
+.services .development__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  max-width: 117rem;
+  margin: 0 auto;
+}
+.services .development__text h2 {
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+  color: #ffa700;
+  font-size: 5rem;
+  font-weight: 600;
+}
+.services .development__text p {
+  margin-top: 3rem;
+  text-align: justify;
+}
+.services .development__text h3 {
+  font-size: 3rem;
+  color: #ffa700;
+  font-weight: 530;
+}
+.services .development__text h6 {
+  font-size: 1rem;
+}
+.services .development__wrapper img {
+  padding-top: 15rem;
+}
+/* Hide last chevron */
+.services .services__content:last-child a {
+display: none;
+}
+
+@media screen and (max-width:500px) {
+  .services__content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .services__content .development__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .services__content .development__text {
+    order: 2;
+  }
+  .services__content h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .services__content p, .services__content {
+    text-align: center;
+  }
+  .services__content h3 {
+    font-size: 2.5rem;
+  }
+  .services__content img {
+    width: 20rem;
+    margin: 0 auto;
+  }
+}
 
 /* Contacts  */
 .free{
@@ -624,13 +710,6 @@ border-radius: 2rem;
     padding-top: 1.5rem;
   }
 }
-
-/* Services */
-.section .web__development{
-  background-color: #ffffff;
-  padding-bottom: 5rem;
-}
-.section .web__development
 
 /* REPEATABLE PATTERNS */
 .btn{
