@@ -33,21 +33,64 @@
         </div>
     </header>
 
-    <div class="contact-container">
-        <form action="" class="contact-left">
-            <div class="contact-left-title">
-                <h2>Get in touch</h2>
-                <hr>
+    <section class="contact">
+        <div class="contact__container">
+            <div class="contact__wrapper">
+                <div class="contact__title">
+                    <h2>Contact</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime facilis qui atque in.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <li><a href=""><i class="fa-solid fa-phone"></i></a></li>
+                            <span>+63 987 654 3210</span>
+                        </div>
+                        <div class="contact-item">
+                            <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                            <span> inquire@creativevisualdesigns.com </span>
+                        </div>
+                        <div class="contact-item">
+                            <li><a href=""><i class="fa-solid fa-map-pin"></i></a></li>
+                            <span>Baloc road, Brgy San Ignacio San Pablo City, Laguna, Philippines 4000</span>
+                        </div>
+                    </div>
+                    <div class="contact__horizontal">
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-facebook" ></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter" ></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram" ></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <input type="text"name="name" placeholder="Your name" class="contact-inputs" required>
-            <input type="text"name="name" placeholder="Your Email" class="contact-inputs" required>
-            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-        </form>
-        <div class="contact-right">
-            <a href="" class="button">Submit</a>
-
-
+            <form action="kontak" method="POST" class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your name" class="contact-inputs" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea id="message" name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit" class="submit">Submit</button>
+            </form>
         </div>
-    </div>
+    </section>
+    
+
+    <footer class="footer">  
+        <hr class="contact-line">   
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__social">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <p>Baloc Road, Brgy San Ignacio San Pablo City, Laguna 4000</p>
+                <p>©CREATIVEVISUALDESIGNS 2022</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
