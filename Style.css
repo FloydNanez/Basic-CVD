@@ -874,9 +874,9 @@ grid-gap:5rem;
 
 /* CONTACTS */
 .contact {
-  padding: 15.9rem;
+  padding: 2rem;
   background-color: #2b2b2b;
-  padding-top: 10rem;
+  padding-top: 16rem;
 }
 .contact__container {
   display: flex;
@@ -1069,13 +1069,6 @@ grid-gap:5rem;
   border-bottom: 1px solid #ffffff;
 } 
 
-
-
-
-/* ######## MOBILE VIEW ######## */
-/* ######## MOBILE VIEW ######## */
-/* ######## MOBILE VIEW ######## */
-/* ######## MOBILE VIEW ######## */
 /* ######## MOBILE VIEW ######## */
 
 @media (max-width: 500px) {
@@ -1105,9 +1098,9 @@ grid-gap:5rem;
   }
 }
 
-
-
-footer
+.contact__wrapper{
+  margin-right: 0rem;
+}
 
 /* FOOTER */
 .footer {
@@ -1246,16 +1239,18 @@ z-index: 999;
 bottom: 16rem;
 right: 5rem;
 }
+
 .backtotop.open {
 display: block;
 }
+
 .backtotop a{
   background: #ffa700;
   padding: 1rem;
   border-radius: 5rem;
   color: #2b2b2b;
-  
 }
+
 .btn{
   display: inline-block;
   padding:1.5rem 2rem;
