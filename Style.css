@@ -128,7 +128,7 @@
     background: #2b2b2b;
     position: fixed;
     width: 100%;
-    box-shadow: 0px 1px 5px 1px #aaa;
+    box-shadow: 0px 1px 5px 1px black;
 }
 .header .branding h3{
     color: #ffffff;
@@ -702,6 +702,21 @@ display: none;
   border-radius: 5rem;
   color: black;
 }
+@media (max-width: 500px) {
+  .trend__post ul {
+      flex-direction: column;
+  }
+
+  .update__item__content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .update__item__content img {
+      margin-bottom: 10px;
+  }
+}
+
 
 .update .container {
 display: grid;
@@ -796,6 +811,64 @@ grid-gap:5rem;
 
 .update .update__item__content h5{
   padding-bottom: 3rem;
+}
+@media (max-width: 500px) {
+  .trend__post ul {
+    flex-direction: column;
+  }
+
+  .update .container {
+    grid-template-columns: 1fr; 
+    grid-gap: 2rem;
+  }
+
+  .update .update__item {
+    padding: 2rem 1rem; 
+  }
+
+  .update .update__item__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .update .update__item__content img {
+    margin-bottom: 1rem;
+    max-width: 100%; 
+  }
+
+  .update .update__item h4 {
+    font-size: 1.6rem; 
+    margin-bottom: 2rem;
+  }
+
+  .update .update__item ul {
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow-x: auto; 
+  }
+
+  .update .update__item ul li a {
+    font-size: 1.4rem; 
+    padding: 0.8rem 1.5rem;
+  }
+
+  .trend__post h2 {
+    font-size: 1.8rem; 
+    padding-bottom: 2rem;
+  }
+
+  .trend__post p {
+    max-width: 100%; 
+  }
+
+  .trend__post img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .intro {
+    font-size: 3.5rem; 
+  }
 }
 
 /* CONTACTS */
@@ -957,6 +1030,29 @@ grid-gap:5rem;
 .contact {
 border-bottom: 1px solid #ffffff
 }
+@media (max-width: 500px) {
+  .contact__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .contact__title h2 {
+    text-align: center;
+  }
+  .contact__title {
+    margin: 0 auto;
+    justify-items: center;
+  }
+  .contact__title p{
+    text-align: center;
+  }
+
+  .submit{
+    margin: 0 auto
+  }
+
+}
+
 
 /* Feel free to ragggggh  */
 .free{
