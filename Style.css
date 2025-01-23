@@ -741,7 +741,7 @@ grid-gap:5rem;
     padding-bottom: 2rem;
 }
 
-/* ### Trend Post Content ### */
+/* Trend Post Content */
 .trend__post ul {
     display: flex;            
     gap: 15px;                
@@ -785,7 +785,6 @@ grid-gap:5rem;
     flex: 1;  
     padding-top: 32rem;
 }
-
 
 /* Trend Post Layout */
 .trend__post {
@@ -1069,7 +1068,7 @@ grid-gap:5rem;
   border-bottom: 1px solid #ffffff;
 } 
 
-/* ######## MOBILE VIEW ######## */
+/* MOBILE VIEW */
 
 @media (max-width: 500px) {
   .contact__container{
