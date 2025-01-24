@@ -873,7 +873,7 @@ grid-gap:5rem;
 
 /* CONTACTS */
 .contact {
-  padding: 2rem;
+  padding-bottom: 7rem;
   background-color: #2b2b2b;
   padding-top: 19.90rem;
 }
@@ -976,19 +976,21 @@ grid-gap:5rem;
   flex-direction: column;
 }
 
-.contact__form label {
+.contact__form label:not(.butan) {
   font-size: 1.75rem;
   margin-bottom: 0.625rem;
+}
+
+.contact__form .butan {
+  margin-top: 2.5rem;
 }
 
 .contact__inputs {
   background-color: #f2f2f2;
   border: none;
   padding: 1.25rem;
-  margin-bottom: 2.5rem;
   font-size: 2rem;
   width: 100%;
-  border-radius: 10px; 
   resize: none;
 }
 
