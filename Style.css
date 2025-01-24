@@ -129,6 +129,11 @@
     background: #2b2b2b;
     position: fixed;
     width: 100%;
+}
+#contacthead .header{
+    background: #2b2b2b;
+    position: fixed;
+    width: 100%;
     box-shadow: 0px 1px 5px 1px black;
 }
 .header .branding h3{
